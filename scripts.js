@@ -7,6 +7,10 @@ var maxRounds = 3;
 function rps(player) 
 {
 
+
+    for (let i = 0; i < 1; i++) 
+    {
+
     //Array of choices for the computer//
     var choices = ["rock", "paper", "scissors"];
     // Pick a random index based on the array length
@@ -58,6 +62,7 @@ function rps(player)
     {
         hide()
     }
+    }
     //hide function for buttons, and a message telling user they've reached their 3rd chance
     function hide() 
     {
@@ -71,5 +76,4 @@ function rps(player)
 
     }
 }
-
 
